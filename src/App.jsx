@@ -5,6 +5,7 @@ import SearchBar from "./components/SearchBar";
 import BreweryCard from "./components/BreweryCard";
 import TypeChart from "./components/TypeChart";
 import StatusMessage from "./components/StatusMessage";
+import Footer from "./components/Footer";
 
 const API_URL = "https://api.openbrewerydb.org/v1/breweries";
 const PER_PAGE = 50; // how many breweries we ask the API for at once
@@ -132,6 +133,7 @@ export default function App() {
         <SearchBar value={searchTerm} onChange={setSearchTerm} />
       </header>
       <main>{renderContent()}</main>
+      <Footer />
     </div>
   );
 }
