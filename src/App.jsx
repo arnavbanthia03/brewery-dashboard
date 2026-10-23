@@ -6,6 +6,7 @@ import BreweryCard from "./components/BreweryCard";
 import TypeChart from "./components/TypeChart";
 import StatusMessage from "./components/StatusMessage";
 import Footer from "./components/Footer";
+import StatsBar from "./components/StatsBar";
 
 const API_URL = "https://api.openbrewerydb.org/v1/breweries";
 const PER_PAGE = 50; // how many breweries we ask the API for at once
@@ -112,6 +113,7 @@ export default function App() {
     // Happy path: we have data.
     return (
       <>
+        <StatsBar breweries={breweries} />
         <TypeChart breweries={breweries} />
         <h2 className="section-title">
           {breweries.length} {breweries.length === 1 ? "brewery" : "breweries"}

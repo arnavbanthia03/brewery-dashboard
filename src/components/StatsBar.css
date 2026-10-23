@@ -1,0 +1,30 @@
+/* StatsBar.css — styles for the StatsBar component (uses the colour variables from index.css) */
+.stats {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  margin-bottom: 20px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 14px 16px;
+  background: var(--orange-tint);
+  border: 2px solid var(--orange-line);
+  border-radius: 14px;
+}
+
+.stat-value {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: var(--orange);
+  text-transform: capitalize;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+}
