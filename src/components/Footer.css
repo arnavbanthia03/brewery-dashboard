@@ -1,0 +1,22 @@
+/* Footer.css — styles for the Footer component (uses the colour variables from index.css) */
+.footer {
+  margin-top: 56px;
+  padding-top: 24px;
+  border-top: 2px solid var(--orange-line);
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.footer p {
+  margin: 4px 0;
+}
+
+.footer a {
+  color: var(--orange);
+  font-weight: 600;
+}
+
+.footer a:focus-visible {
+  outline: 3px solid var(--orange);
+  outline-offset: 2px;
+}
