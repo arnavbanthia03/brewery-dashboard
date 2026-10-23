@@ -131,7 +131,7 @@ export default function App() {
     <div className="page">
       <header className="header">
         <h1>Brewery Dashboard</h1>
-        <p>Search breweries across the United States and see what kinds you find.</p>
+        <p>Search breweries across the World and see what kinds you find.</p>
         <SearchBar value={searchTerm} onChange={setSearchTerm} />
       </header>
       <main>{renderContent()}</main>
