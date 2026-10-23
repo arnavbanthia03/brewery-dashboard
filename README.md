@@ -1,6 +1,6 @@
 # Brewery Dashboard
 
-**Topic 13: React Dashboard Consuming an API**
+**React Dashboard Consuming an API**
 
 A responsive React dashboard that pulls live data from the [Open Brewery DB API](https://www.openbrewerydb.org). Users can search breweries by name, browse them as cards, and see a bar chart showing how many breweries there are of each type. The app is built with React and Vite, uses Recharts for the chart, and is styled with plain CSS in a white and orange theme.
 
