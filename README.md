@@ -8,10 +8,10 @@ A responsive React dashboard that pulls live data from the [Open Brewery DB API]
 
 | Name             | Project Role                                          |
 | ---------------  | ----------------------------------------------------- |
-| Arnav Banthia    | Frontend Developer(React components, API integration) |
-| S018    | UI/UX Designer (CSS, theme, responsive layout)         |
-| s031  | Data & Chart Developer (Recharts, data handling)      |
-| s037| Tester & Documentation (QA, README, screenshots)      |
+| Arnav Banthia    |  |
+| Dhanraj Haria    |          |
+| Shaurya Lalwani  |       |
+| Sarthakk Mukherji|       |
 
 ## Features
 
