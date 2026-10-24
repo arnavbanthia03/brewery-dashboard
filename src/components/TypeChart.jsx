@@ -29,6 +29,8 @@ export default function TypeChart({ breweries }) {
             <Tooltip
               cursor={{ fill: "rgba(255,255,255,0.15)" }}
               contentStyle={{ background: "#fff", border: "none", borderRadius: 8, color: "#9A3B00" }}
+              labelStyle={{ color: "#9A3B00", fontWeight: 600, textTransform: "capitalize" }}
+              itemStyle={{ color: "#9A3B00" }}
             />
             <Bar dataKey="count" name="Breweries" fill="#fff" radius={[0, 6, 6, 0]} />
           </BarChart>
