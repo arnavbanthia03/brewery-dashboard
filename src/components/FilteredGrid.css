@@ -1,0 +1,33 @@
+/* FilteredGrid.css — styles for the filter dropdown (the card grid itself is styled in index.css) */
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.filter label {
+  font-weight: 600;
+}
+
+.filter select {
+  padding: 8px 12px;
+  font: inherit;
+  color: var(--orange-deep);
+  text-transform: capitalize;
+  background: var(--white);
+  border: 2px solid var(--orange-line);
+  border-radius: 10px;
+}
+
+.filter select:focus-visible {
+  outline: 3px solid var(--orange);
+  outline-offset: 2px;
+  border-color: var(--orange);
+}
+
+.filter-count {
+  margin-left: auto;
+  font-size: 0.9rem;
+}
