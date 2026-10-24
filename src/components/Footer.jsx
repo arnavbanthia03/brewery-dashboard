@@ -2,7 +2,6 @@
 // It has its own CSS file (Footer.css) so it does not touch index.css.
 import "./Footer.css";
 
-// TODO (Friend 1): replace the three placeholder names with the real team names.
 const TEAM = ["Arnav Banthia", "Dhanraj Haria", "Shaurya Lalwani", "Sarthakk Mukherji"];
 
 export default function Footer() {
